@@ -14,12 +14,9 @@ A compact LLaMA‑style Causal Language Model (~134.5M params) trained on an 8.2
 ## 1) Project Links (to share with instructor)
 
 - GitHub (repo with this README):
-  - https://github.com/<your‑github‑user>/SmolLM_135M_Marathi  ← replace with your public repo URL
+  - https://github.com/swanshiv/SmolLM_Maha_135M
 - Hugging Face Space (demo UI for Marathi HAIKU generation):
-  - https://huggingface.co/spaces/<your‑org‑or‑user>/marathi‑haiku‑smollm  ← replace with your Space URL
-
-> Tip: In your Space, load the final checkpoint from `checkpoints/smollm_135m/` and expose a simple Gradio UI that generates Marathi haikus.
-
+  - https://huggingface.co/spaces/skolvankar/SmolLM_Maha_135M
 ---
 
 ## 2) Model Definition (SmolLM2)
@@ -285,3 +282,4 @@ For a specific final checkpoint path (e.g., `checkpoint_final.pt`) and a fixed +
 ### 📌 Notes on Storage Limits
 
 Hugging Face Spaces enforce a ~1 GB repo limit. Do not commit `.pt` weights to the Space repo. Host large artifacts in a **Model** repository (e.g., [skolvankar/Marathi_SmolLM_135M](https://huggingface.co/skolvankar/Marathi_SmolLM_135M)) with Git‑LFS, and fetch them at runtime with `hf_hub_download`.
+
